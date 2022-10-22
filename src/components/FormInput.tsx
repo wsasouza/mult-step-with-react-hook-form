@@ -1,15 +1,14 @@
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
-import Typography from "@mui/material/Typography";
-import { Controller, useFormContext } from "react-hook-form";
+import Box from '@mui/material/Box'
+import TextField from '@mui/material/TextField'
+import { Controller, useFormContext } from 'react-hook-form'
 
 type FormInputProps = {
-  name: string;
-  label: string;
-};
+  name: string
+  label: string
+}
 
 export const FormInput = ({ name, label }: FormInputProps) => {
-  const { control } = useFormContext();
+  const { control } = useFormContext()
 
   return (
     <Controller
@@ -25,8 +24,8 @@ export const FormInput = ({ name, label }: FormInputProps) => {
               {...field}
             />
           </Box>
-        );
+        )
       }}
     />
-  );
-};
+  )
+}

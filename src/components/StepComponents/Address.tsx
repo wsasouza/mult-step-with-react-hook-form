@@ -1,6 +1,6 @@
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { FormInput } from "../FormInput";
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+import { FormInput } from '../FormInput'
 
 export const Address = () => {
   return (
@@ -9,9 +9,9 @@ export const Address = () => {
 
       <Box display="flex" flexDirection="column" gap={2} marginTop={3}>
         <FormInput name="street" label="Rua" />
-        <FormInput name="streetNumber" label="Número da rua" />
+        <FormInput name="streetNumber" label="Número" />
         <FormInput name="city" label="Cidade" />
       </Box>
     </Box>
-  );
-};
+  )
+}

@@ -1,6 +1,7 @@
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { FormInput } from "../FormInput";
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+
+import { FormInput } from '../FormInput'
 
 export const PersonalInfo = () => {
   return (
@@ -9,8 +10,9 @@ export const PersonalInfo = () => {
 
       <Box display="flex" flexDirection="column" gap={2} marginTop={3}>
         <FormInput name="name" label="Nome" />
+        <FormInput name="lastName" label="Sobrenome" />
         <FormInput name="age" label="Idade" />
       </Box>
     </Box>
-  );
-};
+  )
+}

@@ -1,6 +1,6 @@
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { FormInput } from "../FormInput";
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+import { FormInput } from '../FormInput'
 
 export const Contact = () => {
   return (
@@ -12,5 +12,5 @@ export const Contact = () => {
         <FormInput name="telNumber" label="Telefone" />
       </Box>
     </Box>
-  );
-};
+  )
+}
